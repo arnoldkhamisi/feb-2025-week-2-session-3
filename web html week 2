@@ -1,0 +1,68 @@
+<!DOCTYPE  html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Lists, Images, Tables & Forms</title>
+    </head>
+    <body>
+        <h2>Definition Lists</h2>
+        <dl>
+            <dt>FBI</dt>
+            <dd>Federal Bereau of Investigation</dd>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+        </dl>
+        <h2>Images</h2>
+        <img src="cars/drop 3.jpg">
+        <h2>Tables</h2>
+        <table border="1">
+            <caption>Exam Results</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Maths</th>
+                    <th>Geo</th>
+                    <th>Bio</th>
+                    <th>Chem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maryline</td>
+                    <td>80</td>
+                    <td>95</td>
+                    <td>88</td>
+                    <td>91</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forms</h2>
+        <form action="" method="">
+            <label for="full_name">Full Names:</label>
+            <input type="text" id="full_name" name="full_name" placeholder="Enter Your full name" required>
+<br>
+             <label for="Gender"></label>
+             <input type="radio" name="gender" value="Male">Male
+             <input type="radio" name="gender" value="Female">Female
+             <br>
+             <label for="languages">Languages</label>
+             <input type="checkbox" name="languages" value="English">English
+             <input type="checkbox" name="languages" value="Kiswahili">Kiswahili
+             <input type="checkbox" name="languages" value="Germany">Germany
+             <br>
+             <label for="country">Country</label>
+             <select name="country" id="country">
+                <option>--Select Country--</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Register">
+            <button type="reset">Cancel</button>
+        </form>
+    </body>
+</html>
